@@ -1,0 +1,2 @@
+#include "News.h"
+
