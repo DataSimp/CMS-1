@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{5825379B-E58E-40AD-B33D-12EC049FFA25}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>CMSProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Installer for Windows\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AAddStaff.cpp" />
+    <ClCompile Include="AAddTeacher.cpp" />
+    <ClCompile Include="ACampusInfo.cpp" />
+    <ClCompile Include="ACampusInfo1.cpp" />
+    <ClCompile Include="ACampusJobs.cpp" />
+    <ClCompile Include="AChangePassword.cpp" />
+    <ClCompile Include="ACourses.cpp" />
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="AdminPage.cpp" />
+    <ClCompile Include="AEditProfile.cpp" />
+    <ClCompile Include="AInternship.cpp" />
+    <ClCompile Include="AllCourses.cpp" />
+    <ClCompile Include="AProfile.cpp" />
+    <ClCompile Include="AAddStudent.cpp" />
+    <ClCompile Include="ARemoveAdmin.cpp" />
+    <ClCompile Include="ARemoveStaff.cpp" />
+    <ClCompile Include="ARemoveStudent.cpp" />
+    <ClCompile Include="ARemoveTeacher.cpp" />
+    <ClCompile Include="ASCV.cpp" />
+    <ClCompile Include="ASections.cpp" />
+    <ClCompile Include="AUpdateAdmin.cpp" />
+    <ClCompile Include="AUpdateStaff.cpp" />
+    <ClCompile Include="AUpdateStudent.cpp" />
+    <ClCompile Include="AUpdateTeacher.cpp" />
+    <ClCompile Include="AViewAdmin.cpp" />
+    <ClCompile Include="AViewStaff.cpp" />
+    <ClCompile Include="AViewStudents.cpp" />
+    <ClCompile Include="AViewTeacher.cpp" />
+    <ClCompile Include="Internships.cpp" />
+    <ClCompile Include="LogInPage.cpp" />
+    <ClCompile Include="News.cpp" />
+    <ClCompile Include="NewsAndForms.cpp" />
+    <ClCompile Include="SChangePassword.cpp" />
+    <ClCompile Include="SCourses.cpp" />
+    <ClCompile Include="SCV.cpp" />
+    <ClCompile Include="SEditProfile.cpp" />
+    <ClCompile Include="SProfile.cpp" />
+    <ClCompile Include="Staff.cpp" />
+    <ClCompile Include="Student Page.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="TChangePassword.cpp" />
+    <ClCompile Include="TCourses.cpp" />
+    <ClCompile Include="Teacher.cpp" />
+    <ClCompile Include="TeacherPage.cpp" />
+    <ClCompile Include="TEditProfile.cpp" />
+    <ClCompile Include="TProfile.cpp" />
+    <ClCompile Include="TSections.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AAddStaff.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AAddTeacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ACampusInfo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ACampusInfo1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ACampusJobs.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AChangePassword.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ACourses.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdminPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AEditProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AInternship.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AllCourses.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AAddStudent.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ARemoveAdmin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ARemoveStaff.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ARemoveStudent.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ARemoveTeacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ASCV.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ASections.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AUpdateAdmin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AUpdateStaff.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AUpdateStudent.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AUpdateTeacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AViewAdmin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AViewStaff.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AViewStudents.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AViewTeacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Internships.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LogInPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="News.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SChangePassword.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SCourses.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SCV.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SEditProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Staff.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Student Page.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TChangePassword.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TCourses.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeacherPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TEditProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TSections.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AAddStaff.resx">
+      <DependentUpon>AAddStaff.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAddTeacher.resx">
+      <DependentUpon>AAddTeacher.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACampusInfo.resx">
+      <DependentUpon>ACampusInfo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACampusInfo1.resx">
+      <DependentUpon>ACampusInfo1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACampusJobs.resx">
+      <DependentUpon>ACampusJobs.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AChangePassword.resx">
+      <DependentUpon>AChangePassword.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACourses.resx">
+      <DependentUpon>ACourses.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPage.resx">
+      <DependentUpon>AdminPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AEditProfile.resx">
+      <DependentUpon>AEditProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AInternship.resx">
+      <DependentUpon>AInternship.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCourses.resx">
+      <DependentUpon>AllCourses.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AProfile.resx">
+      <DependentUpon>AProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAddStudent.resx">
+      <DependentUpon>AAddStudent.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARemoveAdmin.resx">
+      <DependentUpon>ARemoveAdmin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARemoveStaff.resx">
+      <DependentUpon>ARemoveStaff.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARemoveStudent.resx">
+      <DependentUpon>ARemoveStudent.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARemoveTeacher.resx">
+      <DependentUpon>ARemoveTeacher.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASCV.resx">
+      <DependentUpon>ASCV.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASections.resx">
+      <DependentUpon>ASections.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AUpdateAdmin.resx">
+      <DependentUpon>AUpdateAdmin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AUpdateStaff.resx">
+      <DependentUpon>AUpdateStaff.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AUpdateStudent.resx">
+      <DependentUpon>AUpdateStudent.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AUpdateTeacher.resx">
+      <DependentUpon>AUpdateTeacher.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AViewAdmin.resx">
+      <DependentUpon>AViewAdmin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AViewStaff.resx">
+      <DependentUpon>AViewStaff.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AViewStudents.resx">
+      <DependentUpon>AViewStudents.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AViewTeacher.resx">
+      <DependentUpon>AViewTeacher.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Internships.resx">
+      <DependentUpon>Internships.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInPage.resx">
+      <DependentUpon>LogInPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="News.resx">
+      <DependentUpon>News.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SChangePassword.resx">
+      <DependentUpon>SChangePassword.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCourses.resx">
+      <DependentUpon>SCourses.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCV.resx">
+      <DependentUpon>SCV.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEditProfile.resx">
+      <DependentUpon>SEditProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SProfile.resx">
+      <DependentUpon>SProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff.resx">
+      <DependentUpon>Staff.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Page.resx">
+      <DependentUpon>Student Page.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student.resx">
+      <DependentUpon>Student.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TChangePassword.resx">
+      <DependentUpon>TChangePassword.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TCourses.resx">
+      <DependentUpon>TCourses.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher.resx">
+      <DependentUpon>Teacher.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherPage.resx">
+      <DependentUpon>TeacherPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEditProfile.resx">
+      <DependentUpon>TEditProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TProfile.resx">
+      <DependentUpon>TProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TSections.resx">
+      <DependentUpon>TSections.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Desktop\AAA.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
