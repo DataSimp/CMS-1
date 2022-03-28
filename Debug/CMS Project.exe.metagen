@@ -1,0 +1,240 @@
+  CMSProject.AAddStaff.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AAddTeacher.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ACampusInfo.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ACampusInfo1.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ACampusJobs.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AChangePassword.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ACourses.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.Admin.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AdminPage.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AEditProfile.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AInternship.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AllCourses.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AProfile.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AAddStudent.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ARemoveAdmin.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ARemoveStaff.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ARemoveStudent.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ARemoveTeacher.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ASCV.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.ASections.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AUpdateAdmin.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AUpdateStaff.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AUpdateStudent.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AUpdateTeacher.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AViewAdmin.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AViewStaff.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AViewStudents.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.AViewTeacher.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.Internships.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.LogInPage.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.News.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.SChangePassword.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.SCourses.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.SCV.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.SEditProfile.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.SProfile.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.Staff.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.Student Page.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.Student.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.TChangePassword.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.TCourses.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.Teacher.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.TeacherPage.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.TEditProfile.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.TProfile.resources - Embedded, ContainedInManifestFile, 
+  CMSProject.TSections.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CMS Project, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CMSProject.AAddStaff: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AAddTeacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ACampusInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ACampusInfo1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ACampusJobs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AChangePassword: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+Class CMSProject.ACourses: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AViewAdmin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AUpdateAdmin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ARemoveAdmin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String UserName : Public
+Class CMSProject.Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String UserName : Public
+Class CMSProject.SProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String UserName : Public
+Class CMSProject.SEditProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String UserName : Public
+Class CMSProject.SChangePassword: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+Class CMSProject.SCV: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+    System.String Name : Public
+Class CMSProject.SCourses: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+Class CMSProject.AllCourses: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.Internships: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.StudentPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+    System.String Name : Public
+Class CMSProject.AEditProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String UserName : Public
+Class CMSProject.AProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String UserName : Public, Static
+Class CMSProject.AViewStudents: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AAddStudent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AUpdateStudent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ARemoveStudent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.Student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AViewStaff: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AUpdateStaff: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ARemoveStaff: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.Staff: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AViewTeacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AUpdateTeacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ARemoveTeacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.Teacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ASCV: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.ASections: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.News: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AInternship: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CMSProject.AdminPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String UserName : Public, Static
+Class CMSProject.TProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+Class CMSProject.TEditProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+Class CMSProject.TChangePassword: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+Class CMSProject.TCourses: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Name : Public
+Class CMSProject.TSections: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Name : Public
+Class CMSProject.TeacherPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+    System.String Name : Public
+Class CMSProject.LogInPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
